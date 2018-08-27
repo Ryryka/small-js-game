@@ -1,0 +1,31 @@
+.grid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #000;
+    display: inline-block;  
+}
+.row {
+    margin: 0;
+}
+.cell {
+    border: 1px solid #000;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 27px;
+    text-align: center;
+    line-height: 1.6;
+    color: #000000;
+
+    -webkit-transition: all 0.7s; 
+    transition: all 0.7s;    
+
+    &:hover{
+        cursor: pointer; 
+        background-color: #00000036;   
+        opacity: 0.7;   
+    }
+}
